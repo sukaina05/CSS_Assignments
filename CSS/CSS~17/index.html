@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> styled form Elements</h1>
+
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+        </form>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+        <label>Gender:</label><br>
+        <input type="gender" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+
+    <div class="form-group">
+        <label for="interests">interests:</label>
+        <select id="interests" name="interests" multiple>
+            <option value="music">Music</option>
+            <option value="sports">Sports</option>
+            <option value="books">Books</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label>
+            <input type="checkbox" name="subscibe"checked>
+            subscibe to our newsletter
+        </label>
+    </div>
+    <div class="form-group">
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>

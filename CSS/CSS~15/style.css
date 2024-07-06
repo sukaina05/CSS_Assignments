@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin: 0;
+    background-color: burlywood;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: rotate(360deg) scale(1.2) skew(20deg);
+}

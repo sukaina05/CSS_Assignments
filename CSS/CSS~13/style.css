@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: #3498db;
+    border-radius: 8px;
+    transition-property: width, height, background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.box:hover {
+    width: 150px;
+    height: 150px;
+    background-color: #e74c3c;
+}
+
+#box1 {
+    transition-delay: 0.2s;
+}
+
+#box2 {
+    transition-delay: o.4s;
+}

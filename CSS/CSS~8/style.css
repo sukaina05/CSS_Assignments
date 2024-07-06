@@ -1,0 +1,38 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;/*Header,Main content,Footer*/
+    grid-template-columns: 200px 1fr;/*Sidebar,Main content*/
+    grid-template-areas: "header header"  "sidebar main-content"  "footer footer";
+}
+
+.header{
+    grid-area: header;
+    background-color: lightblue;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: lightgreen;
+}
+
+.main-content{
+    grid-area: main-content;
+    display: grid;
+    grid-template-rows: 1fr 2fr;/*Featured item,Content*/
+    grid-template-areas: "featured-item featured-item"  "content content";
+}
+
+.featured-item{
+    grid-area: featured-item;
+    background-color: lightcoral;
+}
+
+.content{
+    grid-area: content;
+    background-color: lightsalmon;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: lightpink;
+}

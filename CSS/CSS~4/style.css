@@ -1,0 +1,14 @@
+.box{
+    width:200px;
+    height:100px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    box-sizing: content-box;/*default box-sizing value*/
+}
+
+
+.box.border-box{
+    box-sizing: border-box;/* Applying border-box model to specific elements*/
+}

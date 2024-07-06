@@ -1,0 +1,47 @@
+/*Default styles*/
+.content{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 24px;
+}
+
+p{
+    font-size: 16px;
+}
+
+/*Tablet styles(600px-1023px)*/
+@media only screen and (min-width:600px)and(max-width:1023px){
+    .content{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
+
+/*Desktop styles(1024px and above)*/
+@media only screen and (min-width:1024px){
+    .content{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+    p{
+        font-size: 20px;
+    }
+}

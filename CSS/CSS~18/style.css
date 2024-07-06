@@ -1,0 +1,63 @@
+/* styles.css */
+
+:root {
+    /* colors */
+    --primary-color:#3498db;
+    --secondary-color:#e74c3c;
+    --text-color :#333;
+
+/* font sizes */
+--base-font-size: 16px;
+--heading-font-size: 24px;
+--paragraph-font-size: 16px;
+
+/* spacing */
+--pading-small:10px;
+--padding-medium:20px;
+--padding-large:30px;
+}
+
+/* global styles */
+body {
+    font-family: arial, sans-serif;
+    font-size: var(--base-font-size) ;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: var(--padding-medium);
+    text-align: center;
+}
+
+main {
+    padding: var(--padding-medium);
+}
+
+section {
+    margin-bottom: var(--padding-large);
+}
+
+h1, h2, h3 {
+    font-size: var(--heading-font-size);
+    margin-bottom: var(--pading-small);
+}
+
+p {
+    font-size: var(--paragraph-font-size);
+    margin-bottom: var(--pading-small);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: var(--padding-medium);
+    position: fixed;
+    bottom: 0;
+    width:100%
+}

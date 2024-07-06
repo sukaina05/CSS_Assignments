@@ -1,0 +1,123 @@
+/* reset default browser styles */
+body, h1, h2, h3, h4, p, ul, li, button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* basic typography */
+body {
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin-bottom: 0.5em;
+}
+p{ 
+    margin-bottom: 1em;
+}
+
+/* buttons */
+.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* cards */
+.card {
+    background-color: #f0f0f0;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba (0, 0, 0, 0.1);
+    margin-bottom: 1em;
+}
+
+/* forms */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+/* grid system */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col {
+    flex: 1;
+    padding: 0 10px;
+}
+
+/* grid system */
+.col-6 {
+    flex-basis: 50%;
+}
+
+.col-4 {
+    flex-basis: 33.33%;
+}
+
+.col-3 {
+    flex-basis: 25%;
+}
+
+@media (max-width:768px) {
+    .col-6, .col-4, .col-3 {
+        flex-basis: 100%;
+    }
+}
+
+/* utility classes */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.mt-1 {
+    margin-top: 0.5em;
+}
+
+.mt-2 {
+    margin-top: 1em;
+}
+
+.pt-1 {
+    padding-top: 0.5em;
+}
+
+.pt-2 {
+    padding-top: 1em;
+}
+
+.bg-primary {
+    background-color: #007bff;
+    color: #fff;
+}

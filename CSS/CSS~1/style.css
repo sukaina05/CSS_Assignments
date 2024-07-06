@@ -1,0 +1,27 @@
+/* Element selector*/
+h1{
+    color:red;
+}
+
+/* Class selector*/
+.para{
+    font-style: italic;
+}
+
+/* ID selector*/
+#link{
+    text-decoration: none;
+    color: blue;
+}
+
+/* Additional selectors*/
+h2{
+    color: red;
+    font-size: 24px;
+}
+
+.special{
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+}
